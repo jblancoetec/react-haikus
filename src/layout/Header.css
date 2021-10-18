@@ -1,0 +1,33 @@
+header {
+  height: 60px;
+  background-color: var(--rosa-claro);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contenedorBuscadorHeader {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  border-bottom: 1px solid white;
+  height: 50%;
+}
+
+#IconoBuscador {
+  color: white;
+}
+
+#buscador {
+  flex-grow: 1;
+  background-color: var(--rosa-claro);
+  outline-style: none;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  color: white;
+}
+
+#buscador::placeholder {
+  color: var(--color-claro-buscador);
+}

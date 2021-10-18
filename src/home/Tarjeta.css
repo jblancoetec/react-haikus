@@ -1,0 +1,31 @@
+.Tarjeta {
+  border: 1px solid var(--color-bordes);
+}
+
+.ImagenTarjeta > img {
+  width: 100%;
+}
+
+.CuerpoTarjeta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5rem 0.5rem;
+}
+
+.InfoTarjeta {
+  display: flex;
+  align-items: center;
+}
+
+.InfoTarjeta > img {
+  border-radius: 50%;
+  display: inline;
+}
+
+.InfoTarjeta > h4 {
+  font-family: var(--fuente-texto);
+  display: inline;
+  margin: 0;
+  margin-left: 0.5rem;
+}
