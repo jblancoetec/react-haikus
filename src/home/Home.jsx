@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <>
       <h4 className="H4">Colección</h4>
-      <div id="ContenedorTarjetas">
+      <div id="contenedorTarjetas">
         <Tarjeta />
         <Tarjeta />
         <Tarjeta />
