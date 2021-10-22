@@ -24,13 +24,20 @@ html {
   box-sizing: border-box;
 }
 
-.H1 {
+h1 {
   text-align: center;
   font-family: var(--fuente-texto);
   border-bottom: 2px solid var(--color-bordes);
 }
 
-.H4 {
+h4 {
   font-family: var(--fuente-texto);
   border-bottom: 2px solid var(--color-bordes);
+}
+
+p {
+  font-size: 12px;
+  font-family: var(--fuente-texto);
+  text-align: center;
+  color: #00000080;
 }

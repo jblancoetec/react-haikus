@@ -8,3 +8,7 @@ footer {
   bottom: 0vh;
   width: 100vw;
 }
+
+#espacioReservadoFooter {
+  height: 60px;
+}

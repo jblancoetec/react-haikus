@@ -4,10 +4,13 @@ import LinkFooter from "./LinkFooter";
 import { faEnvelope, faShare } from "@fortawesome/free-solid-svg-icons";
 const Footer = () => {
   return (
-    <footer>
-      <LinkFooter icono={faEnvelope} texto="Contactanos" />
-      <LinkFooter icono={faShare} texto="Compartir" />
-    </footer>
+    <>
+      <div id="espacioReservadoFooter"></div>
+      <footer>
+        <LinkFooter icono={faEnvelope} texto="Contactanos" />
+        <LinkFooter icono={faShare} texto="Compartir" />
+      </footer>
+    </>
   );
 };
 
