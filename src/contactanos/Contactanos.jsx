@@ -15,7 +15,7 @@ const Contactanos = () => {
         <LinkContactanos icono={faFacebook} />
         <LinkContactanos icono={faInstagramSquare} />
       </div>
-      <p>
+      <p className="Parrafo">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias
         porro sapiente debitis odit quos, rem a! Aliquid rem dolorem atque
         ratione, velit nulla nam magni? Autem praesentium repudiandae eius.
