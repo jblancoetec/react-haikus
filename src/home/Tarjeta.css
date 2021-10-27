@@ -29,3 +29,19 @@
   margin: 0;
   margin-left: 0.5rem;
 }
+
+.ImagenTarjeta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ContenedorHaiku {
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+}
