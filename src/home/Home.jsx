@@ -1,6 +1,5 @@
 import React from "react";
 import "./Home.css";
-
 import Tarjeta from "./Tarjeta";
 
 const Home = () => {

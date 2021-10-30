@@ -3,16 +3,21 @@ import Header from "./layout/Header";
 import Footer from "./layout/Footer";
 import Main from "./layout/Main";
 import Home from "./home/Home";
-// import Contactanos from "./contactanos/Contactanos";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Contactanos from "./contactanos/Contactanos";
 
 const App = () => (
   <>
-    <Header />
-    <Main>
-      <Home />
-      {/* <Contactanos /> */}
-    </Main>
-    <Footer />
+    <Router>
+      <Header />
+      <Main>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/contactanos" component={Contactanos} />
+        </Switch>
+      </Main>
+      <Footer />
+    </Router>
   </>
 );
 
