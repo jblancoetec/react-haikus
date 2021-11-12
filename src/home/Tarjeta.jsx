@@ -8,6 +8,7 @@ const urlBaseImagen = "https://picsum.photos";
 
 const Tarjeta = () => {
   const [haikuVisible, setHaikuVisible] = useState(false);
+
   return (
     <div className="Tarjeta">
       <div

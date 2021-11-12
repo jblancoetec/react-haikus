@@ -1,13 +1,10 @@
-const LinkCompartir = ({ children }) => {
+import "./LinkCompartir.css";
+
+const LinkCompartir = ({ children, link }) => {
   return (
     <div
-      onClick={() =>
-        navigator.clipboard.writeText("copiamos la direecion para compartir")
-      }
-      style={{
-        width: "auto",
-        height: "auto",
-      }}
+      onClick={() => navigator.clipboard.writeText({ link })}
+      className="ContenedorLinkCompartir"
     >
       {children}
     </div>
