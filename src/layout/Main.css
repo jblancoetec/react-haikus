@@ -1,0 +1,11 @@
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.Subtitulo {
+  font-size: 12px;
+  font-family: var(--fuente-texto);
+  text-align: center;
+  color: #00000080;
+}
