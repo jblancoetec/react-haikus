@@ -1,3 +1,4 @@
+import React from "react";
 import "./LinkContactanos.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const LinkContactanos = ({ icono }) => {

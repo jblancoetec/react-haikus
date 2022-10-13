@@ -1,3 +1,4 @@
+import React from "react";
 import "./LinkCompartir.css";
 
 const LinkCompartir = ({ children, link }) => {

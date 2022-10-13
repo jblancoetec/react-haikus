@@ -1,34 +1,39 @@
-# Enunciado
+# React Haikus Example:writing_hand:
 
-Increiblemente el enunciado no esta aqui, para llegar a el, por el momento, tenes que hacer click [aquí](https://auspicious-sunfish-a4d.notion.site/Dise-o-Adaptable-4180714f4fa5417b988ff02a347baa1d)
+Este proyecto fue creado como ejemplo para trabajar y experimentar con ReactJS. Si es de interés, se puede seguir el paso a paso de este ejemplo en este [link](https://auspicious-sunfish-a4d.notion.site/Dise-o-Adaptable-4180714f4fa5417b988ff02a347baa1d)
 
-# Introducción a la aplicación Create React
+## Entorno
 
-Este proyecto se inició con [Create React App] (https://github.com/facebook/create-react-app).
+Asegurarse de tener instalado `git` . Esto se puede revisar muy fácilmente a través del comando `git --version` . En caso de no estar instalado, se puede hacer a través de los siguientes pasos
 
-## Scripts disponibles
+- En linux, a travez del comando `sudo apt install git`.
+- En Windows, a travez de la pagina oficial https://git-scm.com/
 
-En el directorio del proyecto, puede ejecutar:
+Procurar tener actualizado `node.js` a la versión `lts`. Si desea asegurarse, puede ejecutar el comando `npm doctor` que le indicara si cumple con los requisitos. Si el comando no se encuentra o `node.js` esta desactualizado, puede instalar `node.js --lts` mediante alguno de los siguientes pasos
 
-### `npm start`
+- En windows, desde la [pagina oficial](https://nodejs.org/en/), descargando y ejecutando la versión `lts`.
 
-Ejecuta la aplicación en el modo de desarrollo. \
-Abra [http: // localhost: 3000] (http: // localhost: 3000) para verlo en el navegador.
+- En Linux, a través de [nvm](https://github.com/nvm-sh/nvm) 
 
-La página se recargará si realiza modificaciones. \
-También verá errores de pelusa en la consola.
+  - Abrir una terminal y ejecutar el comando que se encuentra en la sección [Install & update script](https://github.com/nvm-sh/nvm#install--update-script)
 
-### `npm test`
+  - Cerrar la terminal y abrir otra para ejecutar el siguiente comando para verificar la correcta instalación`nvm --version` . Una vez observada la versión, ejecutar el siguiente comando para instalar Node.js
 
-Inicia el corredor de pruebas en el modo de reloj interactivo. \
-Consulte la sección sobre [ejecutar pruebas] (https://facebook.github.io/create-react-app/docs/running-tests) para obtener más información.
+    ```bash
+    nvm install --lts
+    ```
 
-### `npm run build`
 
-Construye la aplicación para producción en la carpeta `build`. \
-Agrupa correctamente React en el modo de producción y optimiza la compilación para obtener el mejor rendimiento.
+## Instalación y ejecución
 
-La compilación se minimiza y los nombres de archivo incluyen los hash. \
-¡Tu aplicación está lista para implementarse!
+- 🛠Para instalar las dependencias ejecutar el siguiente comando `npm install`
+- ⚒Para ejecutar el modo playground o repl, ejecutar el siguiente comando `npm run start`
+- 🔧Para traducir el código en `/src` a `JavaScript` , usar el comando `npm run build`
 
-Consulte la sección sobre [implementación] (https://facebook.github.io/create-react-app/docs/deployment) para obtener más información.
+## Características
+
+- [ReactJS](https://reactjs.org/)
+- [FontAwesome](https://fontawesome.com/)
+- [FramerMotion](https://www.framer.com/docs/introduction/)
+- [ReactRouter](https://reactrouter.com/en/main)
+

@@ -1,3 +1,4 @@
+import React from "react";
 import "./LinkFooter.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
